@@ -1,0 +1,13 @@
+from die import Die
+
+#D6 oluştur.
+
+die=Die()
+
+#Bazı atışlar yap ve sonucu bir listede sakla.
+results=[]
+for roll_num in range(100):
+    result=die.roll()
+    results.append(result)
+
+print(results)
